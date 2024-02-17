@@ -1,0 +1,5 @@
+Git rebase adalah salah satu perintah dalam Git yang digunakan untuk memindahkan, mengubah, atau mengatur ulang sejarah commit pada cabang saat ini sehingga sejarah commit tersebut tampak lebih rapi dan linier.
+
+Saat melakukan rebase, Git akan mengambil serangkaian commit dari satu cabang (biasanya cabang fitur atau percabangan) dan "memasukkannya" ke cabang lainnya (biasanya cabang utama atau cabang yang lebih stabil). Ini dilakukan dengan mengulang commit satu per satu dari cabang fitur ke cabang utama, sehingga membuatnya terlihat seperti cabang fitur tersebut berawal dari titik terbaru pada cabang utama.
+
+Rebase sering digunakan untuk mempertahankan sejarah commit yang bersih dan teratur. Ini membantu dalam menghindari cabang-cabang yang bercabang secara berlebihan dan memudahkan untuk menyatukan perubahan-perubahan yang dilakukan di cabang fitur ke cabang utama tanpa menciptakan banyak commit tambahan atau conflict yang tidak perlu.
